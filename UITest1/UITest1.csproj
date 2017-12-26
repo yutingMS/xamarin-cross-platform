@@ -165,10 +165,6 @@
       <Project>{b84e1bb1-c762-49d2-a64a-afd56d3e7f03}</Project>
       <Name>App15.Android</Name>
     </ProjectReference>
-    <ProjectReference Include="..\App15\App15.iOS\App15.iOS.csproj">
-      <Project>{053d5f68-3e76-4c06-8ca1-68cfe8e401b5}</Project>
-      <Name>App15.iOS</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.2\build\SQLitePCLRaw.lib.e_sqlite3.linux.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.linux.1.1.2\build\SQLitePCLRaw.lib.e_sqlite3.linux.targets')" />
